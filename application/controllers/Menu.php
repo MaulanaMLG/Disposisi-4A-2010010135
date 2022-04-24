@@ -8,6 +8,6 @@ class Welcome extends CI_Controller
         $data = array(
             'content' => 'dashboard/index.php'
         );
-        $this->load->view('template/menu');
+        $this->load->view('template/menu'$data);
     }
 }
